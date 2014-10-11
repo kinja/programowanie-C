@@ -1,3 +1,10 @@
+/*
+	1.4.5 Napisz program, który wczytuje ze standardowego wejścia nieujemną
+	liczbę całkowitą n i wypisuje na standardowym wyjściu sumę kwadra-
+	tów liczb od 0 do n, czyli wartość 0 2 + 1 2 + 3 2 + ... + n 2 .
+*/
+
+
 #include <stdio.h>
 
 int main()
