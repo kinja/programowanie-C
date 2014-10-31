@@ -79,7 +79,7 @@ int main()
 
 	wyswietl( n, tab );
 
-	index( n,tab );
+	index( n, tab );
 
 	wyswietl( n, tab );
 
