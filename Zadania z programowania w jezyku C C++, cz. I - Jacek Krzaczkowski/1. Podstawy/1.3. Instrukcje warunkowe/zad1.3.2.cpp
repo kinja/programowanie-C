@@ -6,17 +6,18 @@ using namespace std;
 
 int main()
 {
-    double x;
+    int a;
+    int b;
     
-    cin >> x;
+    cin >> a >> b;
     
-    if(x < 0)
+    if (a > b)
     {
-        cout << -x << endl; 
+        cout << a << endl;
     }
     else
     {
-        cout << x << endl; 
+        cout << b << endl;
     }
 
     return 0;

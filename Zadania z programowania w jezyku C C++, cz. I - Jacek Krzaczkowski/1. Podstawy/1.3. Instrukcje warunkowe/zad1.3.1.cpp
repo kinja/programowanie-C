@@ -6,18 +6,18 @@ using namespace std;
 
 int main()
 {
-    double x;
+    int n;
     
-    cin >> x;
+    cin >> n;
     
-    if(x < 0)
+    if(n < 0)
     {
-        cout << -x << endl; 
+        cout << -n << endl; 
     }
     else
     {
-        cout << x << endl; 
-    }
-
+        cout << n << endl; 
+    } 
+    
     return 0;
 }
