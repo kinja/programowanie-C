@@ -7,3 +7,12 @@
  Zaimplementuj klasę `funkcja` posiadającą publiczne pole `x` oraz czysto wirtualną metodę `wartosc`,
  która w klasach pochodnych będzie zwracała wartość funkcji przechowywanej w obiekcie w punkcie `x`.
 */
+
+
+class funkcja
+{
+  public:
+    double x;
+  
+    virtual double wartosc() = 0;    
+};
