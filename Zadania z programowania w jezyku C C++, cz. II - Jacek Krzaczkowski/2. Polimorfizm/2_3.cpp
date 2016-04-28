@@ -7,3 +7,16 @@
  Napisz klasę `zespolone` pochodną klasy liczba z zadania 2.2 posiadającą dodatkowo publiczne pole `im` typu `int`.
  Przeciąż w klasie zespolone metodę `modul`. Czy metodę `wiekszy` też trzeba przeciążyć?
 */
+
+class zespolona : public liczba
+{
+  public:
+    int im;
+  
+    double modul()
+    {
+      return sqrt(re*re + im*im);
+    }
+  
+    // nie trzeba przeciążać metody `wieksza`
+};
