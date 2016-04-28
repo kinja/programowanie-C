@@ -11,3 +11,19 @@
       `true` jeżeli moduł liczby `ref` jest większy od modułu liczby przechowywanej w obiekcie, na rzecz którego wywoływana 
       jest metoda oraz `false` w przeciwnym wypadku.
 */
+
+class liczba
+{
+  public:
+    double re;  
+  
+    virtual double modul()
+    {
+      return re > 0 ? re : -re;  
+    }
+  
+    bool wieksza(liczba &ref)
+    {
+      return ref.modul() > modul();
+    }
+};
