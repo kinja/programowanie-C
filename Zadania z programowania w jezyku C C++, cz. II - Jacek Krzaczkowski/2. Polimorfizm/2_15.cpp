@@ -12,7 +12,30 @@
   — czteroargumentowy konstruktor nadający polom `a`, `b`, `c` i `d` wartości otrzymane w argumentach.
 */
 
-// typ a,b,c,d -> double
-// chronione -> `protected`
-// czysto wirtualna -> `virtual ... = 0`
-// Konstruktor -> http://edu.pjwstk.edu.pl/wyklady/pro/scb/PRG2CPP_files/node103.html
+
+class czworokat
+{
+  protected:
+    double a, b, c, d;
+  
+  public:
+
+    czworokat(double a, double b, double c, double d)
+    {
+      this->a = a;
+      this->b = b;
+      this->c = c;
+      this->d = d;
+    }
+
+    void wypisz()
+    {
+      cout << "czworokat:" << endl
+        << "  a: " << a << endl
+        << "  b: " << b << endl
+        << "  c: " << c << endl
+        << "  d: " << d << endl;
+    }
+
+    virtual double pole() = 0;
+};
